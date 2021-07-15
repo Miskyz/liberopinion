@@ -21,10 +21,9 @@ function sendEmail() {
 
 
     Email.send({
-        SecureToken: "8fdaf19f-92a6-4c2a-8aab-2ad6b058496c",
+        SecureToken: " 6e7e4125-273d-4340-89ea-032a95f9d639",
         Host: "smtp.gmail.com",
-        Username: "claudiabarrosnunes505@gmail.com",
-        Password: "liberopinionTESTE",
+
         To: 'claudiabarrosnunes505@gmail.com',
         From: "claudiabarrosnunes505@gmail.com",
         Subject: "Liberopinion - Nova Mensagem do Website",

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+    <!-- UTF-8 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Cláu">
+
+    <!-- Refresh - No fim tirar!!!!!!!!!!!!!! -->
+    <!-- <meta http-equiv="refresh" content="5"> -->
+
+    <!-- ******************************************* FAVICON ******************************************* -->
+
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- ******************************************* Tipografia ******************************************* -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- ******************************************* Simbolos ******************************************* -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <!-- ******************************************* CSS ******************************************* -->
+    <link rel="stylesheet" href="CSS/base.css">
+
+    <!-- ******************************************* BOOTSTRAP ******************************************* -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/dist/js/bootstrap.bundle.min.js">
+
+
+    <!-- ************************************  IMPORTAR FONTAWESOME   ****************************************************** -->
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.2-web/css/fontawesome.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.2-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.2-web/css/all.css">
+
+    <link rel="stylesheet" href="fontawesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fontawesome/3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- ******************************************* JS ******************************************* -->
+    <script src="JS/node.js"></script>
+    <script src="JS/SliderParceiros.js"></script>
+    <script src="JS/inputCheck.js"></script>
+
+    <script src="JS/smtp.js"></script>
+    <!-- <script src="JS/index.js"></script> -->
+
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=pt'></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .btnConcluir1 {
+            background-color: #29ABE2 !important;
+            width: 400px !important;
+            border: none !important;
+            color: white !important;
+            padding: 10px 27px !important;
+            text-align: center !important;
+            border-color: #29abe2 !important;
+            text-decoration: none !important;
+            display: inline-block !important;
+            font-size: 17px !important;
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: 500 !important;
+            border-radius: 10px 20px !important;
+
+        }
+
+        .btnConcluir1:hover {
+
+            color: WHITE !important;
+            border-radius: 10px 20px !important;
+            background-color: transparent !important;
+            transition: all 0.3s !important;
+            border: 1px solid #29abe2 !important;
+            color: #29abe2 !important;
+        }
+
+
+        .btnApagar {
+            background-color: #F7B847 !important;
+            width: 400px !important;
+            border: 1px solid #F7B847 !important;
+            color: white !important;
+            padding: 10px 27px !important;
+            text-align: center !important;
+            border-color: #F7B847 !important;
+            text-decoration: none !important;
+            display: inline-block !important;
+            font-size: 17px !important;
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: 500 !important;
+            border-radius: 10px 20px !important;
+
+        }
+
+        .btnApagar:hover {
+
+            color: #F7B847 !important;
+            border-radius: 10px 20px !important;
+            background-color: transparent !important;
+            transition: all 0.3s !important;
+        }
+
+        .textopequeno {
+            color: #616161;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 12px !important;
+        }
+
+        #myCheck {
+            width: 1%;
+        }
+
+        .textoBasicoSimple {
+            color: #6d6d6d;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            line-height: 1.8;
+        }
+
+        .textoBasicoSimpleRegular {
+            color: #686868;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+    </style>
+
+    <!-- ******************************************* Titulo ******************************************* -->
+    <title>Contactos</title>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbarSize navbar-expand-lg navbar-light bg-white p-lg-0 "
+        style=" position: fixed; width:100%; box-shadow: 2px 2px 2px 1px #0000001a;">
+        <a href="index.html" class="ml-lg-5 pl-lg-5 pl-sm-0 pl-xs-0 pl-1">
+            <div class="logo ">
+                <img class="navbar-brand" src="./Imagens/1.svg" style="width:115%; " alt="Logotipo de liberopinion">
+            </div>
+        </a>
+
+        <button class="navbar-toggler mr-4" style="margin-left:90%; margin-top:-10%;" type="button"
+            data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <br>
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link " href="index.html#ModulosSection">Produtos</a>
+                    <ul>
+                        <li><a href="op.html" class="nav-link" style="line-height:25px">Orçamento Participativo</a></li>
+                        <li><a href="associativismo.html" class="nav-link " style="line-height:25px">Associativismo</a>
+                        </li>
+                        <li><a href="voluntariado.html" class="nav-link" style="line-height:25px">Voluntariado</a></li>
+                        <li><a href="acaoSocial.html" class="nav-link" style="line-height:25px">Ação Social</a></li>
+                        <li><a href="apoioRenda.html" class="nav-link" style="line-height:25px">Apoio à Renda</a></li>
+                        <li><a href="bolsasEstudo.html" class="nav-link" style="line-height:25px">Bolsas de Estudo</a>
+                        </li>
+                        <li><a href="governanca.html" class="nav-link" style="line-height:25px">Governança
+                                Transparente</a></li>
+                        <li><a href="recursosHumanos.html" class="nav-link" style="line-height:25px">Recursos
+                                Humanos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link" href="empresa.html">Empresa</a>
+                    <ul>
+                        <li><a class="nav-link" href="empresa.html#HeaderSection3">Sobre</a></li>
+                        <li><a class="nav-link" href="empresa.html#EquipaSection">Equipa</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link" href="duvidas.html">Dúvidas</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link" href="contactos.html">Contactos</a>
+                </li>
+            </ul>
+    </nav>
+    <!-- *******************************************  FIM DA NAVBAR ******************************************* -->
+
+
+
+
+    <!-- ******************************************* HEADER ******************************************* -->
+
+    <section class="ParceirosPagHeader ">
+        <div class="container-fluid">
+
+            <div class="row col-lg-12" style="padding-top:5%;">
+                <div class="col-lg-12 col-md-12">
+                    <div class="TituloParc  mb-lg-0 col-xs-12  col-lg-12 col-xl-12 mt-5">
+                        <span style="color: #F7B847;">Pedido de</span>
+                        <BR>
+                        <span style="color: #ffffff;">Informações</span>
+                    </div>
+                    <div class="mt-5 Textoparc mb-5">
+                        Caso necessite de entrar em contacto connosco, sugerimos o preenchimento do formulário que se
+                        segue em baixo.
+
+                        Se precisar de marcar alguma reunião também se ajusta ao longo dos campos incluídos no
+                        formulário. Todas as informações de redes sociais, localização e contactos encontram-se no final
+                        da página. Obrigado pela sua visita!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ********************************************   FIM DO HEADER   ***************************************** -->
+
+
+
+
+    <!-- ************************************************   FormularioContactos    ******************************************* -->
+
+    <section class="FormularioContactos" id="FormularioContactos">
+
+        <div id="wave-container2">
+            <div id="wave2">
+            </div>
+        </div>
+        <div class="container-fluid ">
+
+            <div class="col-lg-12 col-md-12 ">
+                <div class="TituloForm mb-lg-0 col-xs-12  col-lg-12 col-xl-12">
+                    <span style="color: #29abe2;">Preencha o</span>
+                    <BR>
+                    <span style="color: #6d6d6d;">Formulário</span>
+                </div>
+
+                <hr>
+                <!-- <div class="col-xs-12 col-lg-12 col-sm-12 col-md-12 mt-5"> -->
+                <div class=" mt-5">
+
+                    <form action="javascript:sendEmail()" method="post">
+                        <div class="row">
+                            <div class="col-lg-6 col-xs-12 col-sm-6">
+                                <div class="form-group textoBasicoSimpleRegular ">
+                                    <label>Nome</label>
+                                    <input type="text" class="form-control"
+                                        pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ'\s]+$" minlength="3"
+                                        maxlength="200" placeholder="Nome" id="nome" name="nome" required>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-6">
+                                <div class="form-group textoBasicoSimpleRegular">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" placeholder="Email" name="email" required
+                                        id="email">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-6">
+                                <div class="form-group textoBasicoSimpleRegular">
+                                    <label>Morada</label>
+                                    <input type="text" class="form-control" placeholder="Morada" name="morada" required
+                                        id="morada">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-6">
+                                <div class="form-group textoBasicoSimpleRegular">
+                                    <label> Telemóvel</label>
+                                    <input type="number" class="form-control" placeholder="Telemóvel" name="telemovel"
+                                        size="9" title="Formato de 9 a 12 números " pattern="^(\d{9}|\d{12})$"
+                                        maxlength="9" minlength="9" required id="telemovel">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-6">
+                                <div class="form-group textoBasicoSimpleRegular">
+                                    <label>Idade</label>
+                                    <input type="number" class="form-control" placeholder="Idade" name="idade"
+                                        maxlength="2" required id="idade">
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-lg-offset-0 col-lg-12 col-xs-3 col-sm-12">
+                                <div class="form-group ">
+
+                                    <label class="inline textoBasicoSimpleRegular" for="myCheck">Marcar uma
+                                        reunião <span class="textopequeno ">(Se pretender agendar uma reunião connosco,
+                                            clique
+                                            na respetiva caixa) </span></label>
+                                    <input type="checkbox" id="myCheck" class="form-control inline"
+                                        placeholder="Reunião" name="Reunião" onclick="myFunction()">
+
+
+
+                                    <p id="text" style="display:none">
+
+                                        <label class="textoBasicoSimpleRegular select ">Tema:</label>
+                                        <select name="modulo" class="textoBasicoSimpleRegular custom-select "
+                                            id="modulo">
+
+                                            <option value="Orçamento Participativo">Orçamento Participativo</option>
+                                            <option value="Associativismo">Associativismo</option>
+                                            <option value="Recursos Humanos">Recursos Humanos</option>
+                                            <option value="Ação Social">Ação Social</option>
+                                            <option value="Bolsas de Estudo">Bolsas de Estudo</option>
+                                            <option value="Voluntariado">Voluntariado</option>
+                                            <option value="Apoio à Renda">Apoio à Renda</option>
+                                            <option value="Governança Transparente">Governança Transparente</option>
+                                            <option value="Outro Assunto">Outro Assunto</option>
+                                        </select>
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-xs-12 col-sm-12">
+                                <div class="form-group textoBasicoSimpleRegular">
+                                    <label class="select">Assunto</label>
+                                    <textarea type="text" class="form-control" placeholder="Mensagem" name="mensagem"
+                                        required id="mensagem"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- <div class="g-recaptcha ml-3"  data-sitekey="6Le3rpIbAAAAACUUOziw7My82XHca5AC5a1ncL80"> -->
+
+                            <!-- <script>
+                                    grecaptcha.ready(function() {
+                                      grecaptcha.execute('6LfaWLQUAAAAADBNK4iYtgGlf_RDv0U0aZ0EARln', {action: 'submit'}).then(function(token) {
+                                          document.getElementById("token").value = token;
+                                      });
+                                    });
+                              </script> -->
+                        </div>
+                        <div class="col-lg-offset-0 col-lg-12 col-xs-12 col-sm-12 text-center MT-3 mb-5">
+                            <button class="btnConcluir1" type="submit" value="Send Email">Enviar</button>
+                            <button class="btnApagar " type="reset" value="Apagar">Apagar</button>
+
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ************************************************    FIM FormularioContactos    ******************************************* -->
+
+
+
+
+    <!-- ************************************************    FOOTER    ******************************************* -->
+
+
+
+    <section class="FooterSection">
+        <!-- Footer -->
+        <footer class="page-footer font-small unique-color-dark container-fluid">
+
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left  espacocimafooter">
+
+                <!-- Grid row -->
+                <div class="row mt-5">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <!-- Content -->
+                        <h6 class="heading text-uppercase font-weight-bold text-light" style="font-size: 20px;">
+                            CONTACTOS</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto "
+                            style="width: 60px;background-color:WHITE;">
+                        <li style="list-style-type: none;color:white ; font-size: 18px;"><img class="iconfooter "
+                                src="./Imagens/phonefooter.png">933
+                            204 044</li>
+                        <li style="list-style-type: none;color:white;font-size: 18px;"><img class="iconfooter"
+                                src="./Imagens/mailfooter.png">info@libertrium.com</li>
+
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="heading text-uppercase font-weight-bold text-light" style="font-size: 20px;">REDES
+                            SOCIAIS</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color:WHITE;">
+                        <div class="social ">
+                            <a href="https://www.facebook.com/LiberopinionLibertrium" target="_blank"
+                                style="text-decoration: none; color:white; "><i
+                                    class="icon-facebook fa-lg mr-3"></i></a>
+                            <a href="https://www.instagram.com/liberopinion/" target="_blank"
+                                style="text-decoration: none; color:white"><i class="icon-instagram fa-lg"></i></a>
+                            </i>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class=" heading text-uppercase font-weight-bold text-light" style="font-size: 20px;">
+                            LOCALIZAÇÃO</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color:WHITE;">
+                        <li style="list-style-type: none;color:white; font-size: 18px;"> <img style="width: 24px;"
+                                class="iconfooter" src="./Imagens/locationfooter.png">Rua Marly-le-Roi, lote 82 -
+                            Urbanização Quinta do
+                            Bosque, 3510-721
+                            -
+                            Viseu
+                        </li>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold text-light heading" style="font-size: 20px;">
+                            COLABORADORES DAS
+                            REDES SOCIAIS
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color:WHITE;">
+                        <li style="list-style-type: none;color:white;">
+                            <img src="Imagens/Logos/portugalparticipa.png" style="width:40%;" />
+                        </li>
+
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+            </div>
+            </div>
+            <!-- Footer Links -->
+            <hr class="" style="width:85%; background-color:white; margin-left:5%;">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 text-light">© 2021 Copyright:
+                <a href="https://liberopinion.com/" style="text-decoration: none; color:white;"> Libertrium</a>
+            </div>
+            <!-- Copyright -->
+
+
+        </footer>
+        <!-- Footer -->
+
+    </section>
+
+
+
+
+    <!-- ********************************************    FIM FOOTER    ******************************************* -->
+
+
+</body>
+
+<!-- ENVIAR EMAIL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script src="JS/index.js">
+
+</script>
+
+</html>

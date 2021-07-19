@@ -230,6 +230,22 @@ p {
   display: block;
 
 }
+
+
+
+.videoWrapper {
+	position:relative;
+	padding-bottom: 60%; /* 16:9 */
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 8%;
+	left: 10%;
+	width: 80%;
+	height: 70%;
+}
+
 /***************************
           HEADER
 ***************************/
@@ -292,15 +308,14 @@ video {
   color: #6C6C6C;
   font-family: 'Montserrat', sans-serif;
   z-index: 99;
-  font-size: 20px;
-  /* margin-left: 10%; */
+  font-size: 19px;
   width:100%;
-  margin-left: -3%;
+  margin-left: -2%;
   margin-top: 5%;
-  /* padding-top: 10%; */
   margin-bottom: 15%;
-  /* padding: 80px; */
   text-align: justify;
+
+  line-height: 1.7;
 }
 
 .botaoinfoamareloinicial {
@@ -1079,6 +1094,7 @@ video {
   line-height: 1.7;
   text-align: justify;
   margin-left: 1%;
+  width:95%;
   font-size:18px;
 }
 
@@ -1143,7 +1159,7 @@ video {
   font-weight: 700;
   z-index: 99;
   margin-top: 2%;
-  margin-left: 5%;
+  margin-left: 14%;
   text-align: justify;
 
 }
@@ -1596,9 +1612,12 @@ video {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  margin-right: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+
   text-align: justify;
   font-size: 18px;
+
 }
 
 .TituloNomeEventoHeaderLG {
